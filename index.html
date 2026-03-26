@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>학생 지금 밟고 있는 선은 중앙선이야</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+
+
+	<style type="text/css">
+
+
+  html {font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.6;
+}
+	body,h1,p{margin:0;text-align: center;}
+	header{padding-top:280px;padding-bottom: 280px;}
+	footer{padding-top:100px;padding-bottom: 100px;font-size: 1.2rem;text-align: center;}
+	section{padding-top: 150px;padding-bottom: 150px;}
+	.wrap{ width:1000px; margin:auto ; }
+	
+	p{padding-top: 60px;padding-bottom: 20px;font-size: 1.2rem;}
+	h1{font-weight: 600; font-size: 3.8rem;letter-spacing: -0.02em}
+	img{width:60%;display: block;margin: 5px auto 100px auto;}
+	header h1 {
+  	display: flex;
+  	justify-content: center;
+  	align-items: baseline;
+  	gap: 8px;
+	}
+	.glow-white {
+  filter: 
+    drop-shadow(0 0 5px #56b5d1)
+    drop-shadow(0 0 10px #76e5ff)
+    drop-shadow(0 0 30px white);
+}
+	.nanum {
+  	font-family: "Nanum Myeongjo", serif;
+	}
+	.redbackground {
+  background-image: url("4-6cry.jpg");
+  background-size: cover; 
+  background-position: top;
+  background-repeat: no-repeat;
+}
+	.redbackground{color:white}
+	.black{background: black;}
+	.black{color:red}
+	.gray{background: gray;}
+	.lightgray{background: #212121; color:white}
+	.lightyellow{background: #faf9bb;}
+	.lightblue{background: #ebf5f8;}
+	.gray {color: white}
+	.bold { font-weight: 700; }
+	.red { color: red; }
+	.blue { color: #1100c6; }
+	.white { color: white; }
+	.big { font-size: 1.8rem; }
+	.italic { font-style: italic; }
+	.ultrabig { font-size: 3rem; }
+	.space {
+  	margin-top: 100px;
+  	margin-bottom: 100px;
+	}
+	.ultraspace {
+  	margin-top: 200px;
+  	margin-bottom: 100px;
+	}
+	.backspace {
+  	margin-bottom: 70px;
+	}
+	.backspace2 {
+  	margin-bottom: 50px;
+	}
+	.glow {
+  	color: white;
+  	text-shadow: 
+    0 0 1px white,
+    0 0 10px white,
+    0 0 22px red;}
+	
+	.fadeimg {
+  	opacity: 0.5;
+	}
+	.fadeimg2 {
+  	opacity: 0.9;
+	}
+	.skyglow {
+  	text-shadow:
+    0 0 5px #136b85,
+    0 0 10px #2e9fff,
+    0 0 15px #7cf1e6,
+    0 0 35px #7ceef1;
+	}
+	.pic{background: url(0.1.JPG);color:white;background-attachment: fixed;background-size: cover;background-position: middle;}
+	.pic1{ background: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3c0Mmhla21nazBmYW5jNXoyMHhrcTc0M3FnemRndWQ1OGl4eWl1YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26BoCmZ8wYXpmkv0A/giphy.gif);color:white;background-size: cover;background-repeat: no-repeat;}
+	.pic2{background: url(white-cloud.jpg);background-attachment: fixed;background-size: cover;background-position: middle;}
+	.centerline {
+  		font-family: "Nanum Myeongjo", serif;
+  		font-weight: 700;font-size:5.2rem;color:red;letter-spacing: -0.02em;
+		}
+	.centerline:hover {
+  	color: #1a1b2b;
+	}
+	.centerline {
+  	margin-left: 8px;
+  	margin-right: 8px;
+	}
+ .gif-bg {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExazNkaDBsZXFwZW94emVjbjI4MjkwdngyanM5cXlsa3ZxNGtuOGtodCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZUOlQXqO0qbAI/giphy.gif");   
+  background-size: cover; background-size: 50%;    
+}
+.big-img {
+  width: 85%
+}
+.little {padding: 0px}
+.llittle{padding-top: 20px;padding-bottom: 20px}
+.img-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.base-img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.overlay-gif {
+  position: absolute;
+  top: 45%;             
+  left: 49%;
+  transform: translate(-50%, -50%);
+  width: 140px;          
+  pointer-events: none;
+}
+.fadeimg {
+  transition: 0.3s;
+}
+
+.fadeimg:hover {
+  opacity: 1;
+}
+
+
+
+</style>
+</head>
+<body>
+<nav></nav>
+<header class="pic1">
+	<div class="wrap">
+		<h1>
+  학생 지금 밟고 있는 선은
+  <span class="centerline">중앙선</span>
+  이야
+		</h1>
+	</div>
+</header>
+<section class="lightgray">
+	<div class="wrap">
+		<p>때는 수능이 끝난 고3 겨울, 우리반에는 하나의 유행이 시작되었다</p>
+		<p>바로 <span class="bold big">운전면허</span>따기</p>
+		<img src="1-drivinglicence.jpg">
+		<p>그 유행은 입시가 일찍 끝난 친구 한 명이 운전면허증을 반 친구들에게 자랑하면서 시작되었는데<br>
+		여러 운전 면허 학원이 있음에도 우리반 친구들은 알 수 없는 의리를 자랑하며 제일 먼저 면허딴 친구가 다녔던 학원으로<br>우르르 열댓명이 한 학원에 등록하게 되었다
+		</p>
+		<p>수능끝난시기는 운전면허학원의 극성수기여서 학원 안은 세상 모든 19살이 이 곳에 모여있는듯 붐볐기에<br>비슷한 시기에 등록했어도 간발의 차로 먼저 등록한 친구는 바로 필기시험을 볼 수 있었지만 
+		늦은 친구는 한 달을 기다려야 했고<br>나는 한달을 기다려야하는 사람에 속했다
+		</p>
+	</div>
+</section>
+<section class="lightyellow">
+	<div class="wrap">
+		<p>내심 친구들의 운전면허가 부러웠던 나는 운전면허학원에 가는 날을 손꼽아 기다렸고<br>드디어 대망의 학원에 처음가는 날이자 필기시험 날이 되었다
+		</p>
+		<p class="bold big blue">필기시험 한 번에 통과</p>
+		<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTNxaWM4bHB3aXVkcHludGc3OWxnZnY2bGlkajR0bXUwZ2QyM2tsMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/AhgQdQqF0nwPiZkGPc/giphy.gif" class="big-img">
+
+		<p>T자 주차가 난관이라는<br><span class="blue big bold">기능시험도 한 번에 통과</span></p>
+	</div>
+</section>
+
+<section class="gif-bg">
+		<div class="wrap">
+			<img src=https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWE2dW51dGcxczN0cXkyYXhvYm41cXFnYXI1bjR1d3o2anl0MG5mYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/31lPv5L3aIvTi/giphy.gif class="big-img">
+		</div>
+</section>
+
+<section class="lightyellow">
+	<div class="wrap">
+		<p class="little">운전면허학원 가는 날만을 기다린 만큼 성과는 좋았고 알 수 없는 자신감이 가득차올랐다</p>
+	</div>
+</section>
+
+<section class="pic">
+	<div class="wrap">
+		<p class="backspace">문제는 바로 마지막 관문인 <span class="bold big">도로주행</span>에서 발생했다</p>
+		<p class="backspace2">그날은 3시간 도로주행 연습 후 바로 주행 시험까지 보는 날이었는데 코스가 시작되는 곳까지는<br> 강사님이 운전 해주셔서 조수석에 앉았다</p>
+		<img src="4-yellow car.jpg" class="big-img">
+	</div>
+</section>
+<section class="lightgray">
+	<div class="wrap">
+		<p class="llittle">2분정도 갔을까  갑자기 도로 한쪽에 차를 세우시더니 이제는 내가 운전대를 잡을 차례라며 운전석으로 오라고 하셨다</p>
+	</div>
+</section>
+<section class="redbackground">
+	<div class="wrap">
+		<p class="space italic big glow">과연 내가 진짜 도로에서 운전을 해도될까?<br>학원에서 만들어둔 가짜 도로는 없는걸까? 날 이대로 도로에 내보내도 괜찮은가?<br>내가 여기서 깜빡이를 키고 차선에 들어갈 수 있을까?<br>내가 킨 깜빡이를 뒤에 차가 못보고 그냥 날 치고가면 어떡하지?<br>내 인생은 여기서 끝인가? 이제 막 수능끝났는데 여기서 죽으면
+		어떻게 되지?<br>옆에 타고 있던 강사님은 내가 죽인게 되는건가?<br>그럼 난 살인자로 눈을 감는걸까? 그건 안돼<br>
+		나 지금까지 착하게 살았는데 마지막에 살인자가 되는건가? 보험 적용되나?<br>이렇게 죽으면 얼마 나오지? 
+		내가 왜 면허를 따겠다고 했지?<br>그냥 대중교통 타면 되지않나? </p>
+	</div>
+</section>
+<section class="lightgray">
+	<div class="wrap">
+		<p>운전대로 자리를 바꾸는 몇 초 안되는 
+		시간 동안 수천가지의 생각이 지나갔지만<br> 포커페이스에 자신이 있던 나는 엉망진창이 된 머릿속을 숨기고 운전석에 앉았다</p>
+		<p class="backspace">생각보다 차가 잘 나가서 오 뭐야 도로주행도 한 번에 통과겠구나 싶은 순간 조수석에서 앉아계시던 강사님이 물으셨다</p>
+	</div>
+</section>
+<section class="black nanum">
+	<div class="wrap">
+		<p class="space bold ultrabig">“학생 지금 밟고 있는 선이 뭐게?”<br> <br> <br>.<br>.<br>.</p>
+		<p class="ultraspace bold ultrabig">“중앙선이야”</p>
+		<img src="4-9shs.jpg" class="fadeimg">
+	</div>
+</section>
+<section class="lightgray">
+	<div class="wrap">
+		<p>그렇다 지금 내가 운전하고 있는 차가 잘나가고 있다는것은 나의 오만과 편견이었던것이다<br>
+		나는 계속 중앙선을 밟고 주행하고 있었다<br>중앙선을 밟고 주행하는 것은 도로 주행에서 
+		제일 큰 감점 요소 였기때문에</p>
+		<p> 그 날 나는 도로 주행에 떨어졌고, <span class="bold big">retry </span>끝에 운전 면허를 얻긴하였으나
+		</p>
+	</div>
+</section>
+<section class="pic2">
+	<div class="wrap">
+  <div class="img-wrap">
+  <img src="53-peace.jpg" class="base-img fadeimg2 glow-white">
+  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZjAwcDM4Mzg2a2tkbGcxdzlxbzZsNTJ4YTR0YjZsMmk5Zm1pc2UwbyZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/IHlQhBItkneqk/giphy.gif" class="overlay-gif">
+</div>
+</div>
+		<p class="backspace white skyglow">나는 도로 위 모든 운전자와 보행자의 <span class="bold big white skyglow">안전・평화・행복</span>을 위해 면허 딴 날 후로
+		한 번도 운전대를 잡은적이 없다
+		<br>혹시라도 나처럼 운전에 재능이 없는 사람이라면 
+		도로위의 평화를 위해 대중교통을 이용하는 것이 어떨까</p>
+	</div>
+</section>
+<footer class="gray">
+	<div class="wrap">학생 지금 밟고 있는 선은 중앙선이야 ⓒ 신재윤
+	</div>
+</footer>
+</body>
+</html>
